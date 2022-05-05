@@ -4,7 +4,7 @@
 	"description": "NodeJS client for steam-scraper",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/withertech/SteamScraper.git"
+		"url": "git+https://github.com/withertech/steam-scraper-client.git"
 	},
 	"main": "dist/api.js",
 	"types": "dist/api.d.ts",
