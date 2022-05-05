@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: lts/*
       - name: Install dependencies
-        run: yarn ci
+        run: yarn install --immutable --immutable-cache --check-cache
       - name: Test
         run: yarn test
       - name: Build
