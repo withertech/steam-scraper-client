@@ -17,6 +17,7 @@
 		"cm": "cz",
 		"coverage": "codecov",
 		"lint": "eslint ./src/ --fix",
+		"prepare": "husky install",
 		"semantic-release": "semantic-release",
 		"test:watch": "jest --watch",
 		"test": "jest --coverage",
@@ -56,7 +57,8 @@
 		"semantic-release": "^19.0.2",
 		"ts-jest": "^27.0.5",
 		"ts-node": "^10.2.1",
-		"typescript": "^4.2.4"
+		"typescript": "^4.2.4",
+		"husky": "^6.0.0"
 	},
 	"config": {
 		"commitizen": {
@@ -68,7 +70,7 @@
 	},
 	"release": {
 		"branches": [
-			"master"
+			"main"
 		]
 	}
 }
