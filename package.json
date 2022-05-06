@@ -6,8 +6,8 @@
 		"type": "git",
 		"url": "git+https://github.com/withertech/steam-scraper-client.git"
 	},
-	"main": "dist/api.js",
-	"types": "dist/api.d.ts",
+	"main": "dist/src/api.js",
+	"types": "dist/src/api.d.ts",
 	"files": [
 		"dist/**/*"
 	],
