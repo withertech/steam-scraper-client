@@ -28,7 +28,7 @@
 		"url": "https://github.com/withertech"
 	},
 	"engines": {
-		"node": ">=16.0"
+		"node": ">=14.0"
 	},
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
